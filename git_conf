@@ -7,12 +7,15 @@ git config --global core.autocrlf false
  
 # alias
 git config --global alias.cmm "commit -s -m"
+git config --global alias.st "status"
+git config --global alias.aa "add -A"
+git config --global alias.pp "push -u origin master"
+alias gitall="git aa && git cmm && git pp"
+
+# not used yet
 git config --global alias.cma "commit --amend"
 git config --global alias.cman "commit --amend --no-edit"
 git config --global alias.ck "checkout"
-git config --global alias.st "status"
 git config --global alias.stu "status -u"
 git config --global alias.lg "log --oneline --graph --decorate --color"
-git config --global alias.st "status"
-git config --global alias.aa "add -A"
 git config --global alias.pr "pull --rebase"
