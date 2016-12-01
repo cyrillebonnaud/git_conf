@@ -2,7 +2,7 @@
 git config --global user.name "cyrillebonnaud" && git config --global user.email bonnaudc@gmail.com
 git config --global  core.editor "nvim"
 
-# Pour convertire les retours à la ligne Windows -> Linux
+# Pour convertir les retours à la ligne Windows -> Linux
 git config --global core.autocrlf false
  
 # alias
