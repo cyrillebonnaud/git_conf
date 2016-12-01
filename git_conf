@@ -10,7 +10,7 @@ git config --global alias.cmm "commit -s -m"
 git config --global alias.st "status"
 git config --global alias.aa "add -A"
 git config --global alias.pp "push -u origin master"
-alias gitall="git aa && git cmm && git pp"
+alias gitall="git aa && git cmm 'brute commit' && git pp"
 
 # not used yet
 git config --global alias.cma "commit --amend"
